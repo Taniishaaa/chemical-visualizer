@@ -17,26 +17,6 @@ Downloadable PDF reports
 
 Both the web (React) and desktop (PyQt5) apps communicate with the same Django REST API.
 
-## Project Structure
-
-chemical-equipment-visualizer/
-│
-├── backend/               - Django REST API
-│   ├── core/              - Project settings
-│   ├── equipment/         - API logic
-│   ├── db.sqlite3
-│   ├── manage.py
-│   └── requirements.txt
-│
-├── web-frontend/          - React + Vite frontend
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.js
-│
-└── desktop-app/           - PyQt5 desktop viewer
-    └── main.py
-
 ## Features
 
 ### CSV Upload
@@ -97,8 +77,8 @@ cd chemical-equipment-visualizer
 2. Backend Setup (Django API)
 
 Create Virtual Environment:
-python -m venv venv
-venv\Scripts\activate      - Windows
+`python -m venv venv`
+`venv\Scripts\activate `     - Windows
 - or: source venv/bin/activate
 
 Install Dependencies:
