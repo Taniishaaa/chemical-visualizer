@@ -78,22 +78,28 @@ cd chemical-equipment-visualizer
 
 Create Virtual Environment:
 `python -m venv venv`
+
 `venv\Scripts\activate `     - Windows
+
 - or: source venv/bin/activate
 
 Install Dependencies:
-pip install -r backend/requirements.txt
+
+`pip install -r backend/requirements.txt`
 
 Apply Migrations:
-cd backend
-python manage.py migrate
+
+`cd backend`
+
+`python manage.py migrate`
 
 Create Superuser:
-python manage.py createsuperuser
+
+`python manage.py createsuperuser`
 
 Run Backend:
-python manage.py runserver
 
+`python manage.py runserver`
 
 Backend runs at: http://127.0.0.1:8000/
 
@@ -101,19 +107,24 @@ Backend runs at: http://127.0.0.1:8000/
 
 Open a separate terminal:
 
+```
 cd web-frontend
-npm install
-npm run dev
 
+npm install
+
+npm run dev
+```
 
 Runs at: http://localhost:5173/
 
 4. Desktop App Setup
 
 Run:
-
+```
 cd desktop-app
+
 python main.py
+```
 
 ## Sample CSV
 
